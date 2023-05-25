@@ -26,7 +26,7 @@ button{
     height: 30px;
     border:2px solid greenyellow;
     background: black;
-
+font-weight: bold;
     color: greenyellow;
     border-radius: 10px;
 }
@@ -52,11 +52,19 @@ input{
     height: 150px;
 }
 
+button:hover{
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
 @media screen and (max-width: 300) {
     .convertor{
         width: 100%;
         height: 0;
         margin-top: 100px;
     }
+
     
 }
