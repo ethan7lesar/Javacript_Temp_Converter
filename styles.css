@@ -1,0 +1,62 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+
+
+*,body{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+h1{
+    color: greenyellow;
+    margin-bottom: 20px;
+}
+button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border:2px solid greenyellow;
+    background: black;
+
+    color: greenyellow;
+    border-radius: 10px;
+}
+
+input{
+    height: 30px;
+    border:2px solid greenyellow;
+    margin-left: 15px;
+    background-color: black;
+    color: greenyellow;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.convertor{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid greenyellow;
+    border-radius: 10px;
+    width: 600px;
+    height: 150px;
+}
+
+@media screen and (max-width: 300) {
+    .convertor{
+        width: 100%;
+        height: 0;
+        margin-top: 100px;
+    }
+    
+}
